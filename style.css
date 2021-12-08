@@ -1,0 +1,166 @@
+/*MY CODE*/
+
+/* star(*) applies to everything in the webpage*/
+
+* {
+	margin: 0;
+}
+
+/* everything in the html*/
+html {
+	height: 100vh;
+}
+
+body {
+	box-sizing: border-box;
+	height: 100vh;
+	background-color: #3C715E;
+}
+
+.links-title {text-align: center;}
+.tutorials-title {text-align: center;}
+.forms-title {text-align: center;}
+.contact-title {text-align: center;}
+
+/* NAVBAR */
+.wrapper-home{
+	background-color: #aeb5ad;
+	border-bottom: 3px solid #cccccc;
+	width: 100%;
+	height: 60px;
+	position: static;
+	box-sizing: border-box;
+}
+
+.wrapper-home ul li:first-child {
+	display: flex;
+	justify-content: left;
+	color: #346151;
+	margin-right: auto;
+}
+.wrapper-home ul {
+	list-style: none;
+	display: flex;
+	justify-content: right;
+}
+.wrapper-home ul li {
+	list-style: none;
+	padding: 10px;
+	margin-top: 10px;
+}
+.wrapper-home ul li a{
+	text-decoration: none;
+	color: #346151;
+	font-weight: 600;
+	font-size: 20px;
+
+	/*spacing between the words*/
+}
+.wrapper-home ul li a:hover {color: white;}
+
+
+
+/*Company Tagline*/
+.tagline{
+	background-color: #aeb5ad;
+	border: 3px solid #cccccc;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	max-width: 400px;
+	padding: 10px;
+	margin: 20px auto;
+	color: #346151;
+}
+
+/* Quick Links Home page */
+.QuickLinks{
+	background-color: #aeb5ad;
+	border: 3px solid #cccccc;
+	box-sizing: border-box;
+	text-align: center;
+	display: block;
+	justify-content: center;
+	max-width: 400px;
+	max-height: 600px;
+	padding: 10px;
+	margin: 20px auto;
+}
+.QuickLinks-Title{
+	color: #346151;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.QuickLinks ul{
+	text-align: center;
+	list-style-type: none;
+	padding: 10px;
+	margin: 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.Quicklinks li{
+	margin-bottom: 20px;
+}
+.QuickLinks a {
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-size: 25px;
+	padding: 10px;
+}
+.QuickLinks a:hover {
+	color: white;
+}
+
+
+/*What We Do Block*/
+.info{
+	background-color: #aeb5ad;
+	border: 3px solid #cccccc;
+	box-sizing: border-box;
+	text-align: center;
+	display: block;
+	justify-content: center;
+	max-width: 400px;
+	max-height: 600px;
+	padding: 10px;
+	margin: 20px auto;
+}
+.info-title{
+	color: #346151;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+p{
+	color: black;
+	font-size: 20px;
+}
+
+/* Footer */
+.footer {
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #aeb5ad;
+	border-top: 2px solid;
+	border-color: #cccccc;
+	color: #6c7a81;
+	text-align: center;
+}
+
+/* Small Screeen Viewport */
+@media screen and (max-width: 800px) {
+
+}
+/* For Desktop Viewport */
+@media screen and (min-width: 800px) {
+
+}
